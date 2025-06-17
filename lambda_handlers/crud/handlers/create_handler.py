@@ -1,4 +1,4 @@
-#pylint: disable=no-value-for-parameter, unused-import
+# pylint: disable=no-value-for-parameter, unused-import
 import logging
 import time
 from http import HTTPStatus
@@ -36,12 +36,13 @@ def create_item_in_db(item_input: ItemInput) -> ShirtItem:
 
 
 # POST /api/item
-def create_item(event: Dict[str, Any], context: LambdaContext) -> Dict[str, Any]:  #pylint: disable=unused-argument
+def create_item(event: Dict[str, Any], context: LambdaContext) -> Dict[str, Any]:  # pylint: disable=unused-argument
     logger: Logger = logging.getLogger()
 
     # validate input
     try:
-        item_input: ItemInput = ItemInput.model_validate_json(event.get('body', '{}'))
+        item_input: ItemInput = ItemInput.model_validate_json(
+            event.get('body', '{}'))
         logger.info('got a create request')
     except (ValidationError, TypeError) as err:
         return build_error_response(err, HTTPStatus.BAD_REQUEST)
@@ -53,7 +54,8 @@ def create_item(event: Dict[str, Any], context: LambdaContext) -> Dict[str, Any]
         logger.exception('unable to complete create action, bad request')
         return build_error_response(bex, HTTPStatus.BAD_REQUEST)
     except InternalSystemException as iex:
-        logger.exception('unable to complete create action, internal server error')
+        logger.exception(
+            'unable to complete create action, internal server error')
         return build_error_response(iex, HTTPStatus.INTERNAL_SERVER_ERROR)
 
     logger.info('finished handling request successfully')
