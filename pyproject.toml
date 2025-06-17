@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "servierless-interview"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "2.*"
+aws-lambda-context = "*"
+
+[tool.poetry.group.dev.dependencies]
+GitPython = "*"
+pycodestyle = "*"
+pytest-mock = "*"
+python-dateutil = "*"
+python-dotenv = "*"
+wheel = "*"
+flaky = "*"
+pytest-xdist = "*"
+yapf = "*"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"

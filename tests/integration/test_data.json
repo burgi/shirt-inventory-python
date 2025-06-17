@@ -1,0 +1,104 @@
+{
+    "items" :[
+        {
+            "name": "Men Red Large",
+            "target": "MEN",
+            "color": "red",
+            "size": "L"
+        },
+        {
+            "name": "Men Red Medium",
+            "target": "MEN",
+            "color": "red",
+            "size": "M"
+        },
+        {
+            "name": "Men Blue Small",
+            "target": "MEN",
+            "color": "blue",
+            "size": "S"
+        },
+        {
+            "name": "Women Indigo Small",
+            "target": "WOMEN",
+            "color": "indigo",
+            "size": "S"
+        },
+        {
+            "name": "Women Yellow Medium",
+            "target": "WOMEN",
+            "color": "yellow",
+            "size": "M"
+        },
+        {
+            "name": "Women Green XLarge",
+            "target": "WOMEN",
+            "color": "green",
+            "size": "XL"
+        },
+        {
+            "name": "Men Orange XXLarge",
+            "target": "MEN",
+            "color": "orange",
+            "size": "XXL"
+        },
+        {
+            "name": "Boys Orange 10",
+            "target": "BOYS",
+            "color": "orange",
+            "size": 10
+        },
+        {
+            "name": "Boys Green 8",
+            "target": "BOYS",
+            "color": "green",
+            "size": 8
+        },
+        {
+            "name": "Boys Indigo 6",
+            "target": "BOYS",
+            "color": "indigo",
+            "size": 6
+        },
+        {
+            "name": "Girls Indigo 2",
+            "target": "GIRLS",
+            "color": "indigo",
+            "size": 2
+        },
+        {
+            "name": "Girls Violet 8",
+            "target": "GIRLS",
+            "color": "violet",
+            "size": 8
+        },
+        {
+            "name": "Girls Blue 4",
+            "target": "GIRLS",
+            "color": "blue",
+            "size": 4
+        },
+        {
+            "name": "Girls Red 2",
+            "target": "GIRLS",
+            "color": "red",
+            "size": 2
+        }
+    ],
+    "sorted_items": [
+        "Men Red Medium",
+        "Men Red Large",
+        "Girls Red 2",
+        "Men Orange XXLarge",
+        "Boys Orange 10",
+        "Women Yellow Medium",
+        "Women Green XLarge",
+        "Boys Green 8",
+        "Men Blue Small",
+        "Girls Blue 4",
+        "Women Indigo Small",
+        "Girls Indigo 2",
+        "Boys Indigo 6",
+        "Girls Violet 8"
+    ]
+}
