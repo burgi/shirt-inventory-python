@@ -1,7 +1,7 @@
 {
-  "name": "Python + Poetry",
+  "name": "Python",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "source ./setup_venv.sh",
+  "postCreateCommand": "source setup_venv.sh",
   "customizations": {
     "vscode": {
       "extensions": [
