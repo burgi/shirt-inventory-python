@@ -12,6 +12,10 @@ The application uses AWS Lambda functions to handle user requests. There are two
 
 The application uses a file-based database to store items. The database is a JSON file that contains a mapping of IDs to shirt objects.
 
+## Before you start
+In the terminal, execute the next command:
+source setup_venv.sh
+
 ## Steps to Complete the Task
 1. Start by reviewing the handlers to understand their functionality and implementation.
 2. Learn how the database works and how to interact with it.
@@ -23,3 +27,6 @@ The application uses a file-based database to store items. The database is a JSO
    - Then by size, in this order: S, M, L, XL, XXL for adults, and 2, 4, 6, 8, 10 for kids.
    - For the same color, adult shirts should come before kids' shirts.
 6. You may search the internet for help, but do not use AI tools to write the code for you.
+
+### After the task is completed and reviewd, delete the codespace
+In the repository page in Github, click Code -> Codesapces, click on the menu button next to the active Codespace and select Delete.
