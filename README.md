@@ -7,12 +7,12 @@ Currently, there are several bugs in the application, and some functionalities a
 
 ## General
 The application uses AWS Lambda functions to handle user requests. There are two handlers:
-1. A get handler to retrieve all items or search for a specific item by name.
-2. A create handler to add a new item to the inventory.
+1. A "get" handler to retrieve all items or search for a specific item by name.
+2. A "create" handler to add a new item to the inventory.
 
 The application uses a file-based database to store items. The database is a JSON file that contains a mapping of IDs to shirt objects.
 
-## Before you start
+## (GitHub codespace) Before you start
 In the terminal, execute the next command:
 source setup_venv.sh
 
@@ -28,5 +28,5 @@ source setup_venv.sh
    - For the same color, adult shirts should come before kids' shirts.
 6. You may search the internet for help, but do not use AI tools to write the code for you.
 
-### After the task is completed and reviewd, delete the codespace
-In the repository page in Github, click Code -> Codesapces, click on the menu button next to the active Codespace and select Delete.
+### (GitHub codespace) After the task is completed and reviewed, delete the codespace
+In the repository page in GitHub, click Code -> Codesapces, click on the menu button next to the active Codespace and select Delete.
